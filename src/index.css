@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+p {
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.auth-image {
+  background-image: url('../public/img/bg-image.jpg');
+  background-size: cover;
+}
+
+.menu-item:hover > span {
+  color: #FF7D00;
+}
+
+.menu-item:hover img {
+  transition: all .4s ease-in-out;
+}
+
+.menu-item:hover > img {
+  filter: invert(52%) sepia(43%) saturate(4133%) hue-rotate(3deg) brightness(107%) contrast(103%);
+}
+
+.active li span {
+  color: #FF7D00;
+}
+
+.active li img {
+  filter: invert(52%) sepia(43%) saturate(4133%) hue-rotate(3deg) brightness(107%) contrast(103%);
+}
+
+.menu-profile {
+  width: 200px;
+  position: absolute;
+  top: 70px;
+  right: 0;
+}
+
+.text-small {
+  font-size: 10px;
+  font-weight: 600;
+  color: #ACADC1;
+}
+
+.gray-secondary {
+  color: #6F708B;
+}
+
+.title-card {
+  color: #18255C;
+}
+
+.border-btn {
+  border: 1px solid gray;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 1em;
+}
+
+.content-container {
+  height: calc(100vh - 60px);
+}
+
+.text-xs {
+  text-align: left !important;
+}
+
+.text-xss {
+  font-size: .7rem;
+}
