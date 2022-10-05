@@ -96,3 +96,15 @@ table {
 .text-xss {
   font-size: .7rem;
 }
+
+.green {
+  background-color: #2DB986 !important;
+}
+
+.yellow {
+  background-color: #EFCF5D !important;
+}
+
+.red {
+  background-color: #DE5263 !important;
+}

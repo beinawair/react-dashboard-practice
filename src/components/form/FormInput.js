@@ -12,7 +12,7 @@ const FormInput = (props) => {
         <input 
             className={"shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline " + props.extraClass} 
             id={props.id || 'form-id' + props.name} 
-            type={props.type || ''} 
+            type={props.type || 'text'} 
             placeholder={props.placeholder || ''}
             value={props.value || ''}
             onChange={props.change || ''}

@@ -52,7 +52,7 @@ const PropertyListTable = ({ isOpen, setIsOpen }) => {
                                 <p className='text-xss gray-secondary'>{list.entry_role}</p>
                             </td>
                             <td className={`text-xs font-normal align-top`}>
-                                <p className={`bg-${textColor(list.status)}-500 text-white text-center rounded-lg p-1`}>{list.status}</p>
+                                <p className={`${textColor(list.status)} text-white text-center rounded-lg p-1`}>{list.status}</p>
                                 <p className='text-xs gray-secondary mt-2'>progress</p>
                                 <p>{list.progress}</p>
                             </td>
